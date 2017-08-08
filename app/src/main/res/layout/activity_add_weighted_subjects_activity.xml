@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fdaj.gradetracker.add_weighted_subjects_activity">
+
+    <TextView
+        android:id="@+id/w_subject_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="34dp"
+        android:text="Subject"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        android:layout_marginStart="26dp" />
+
+    <TextView
+        android:id="@+id/weight_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:text="Weight"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toRightOf="@+id/w_subject_title"
+        app:layout_constraintTop_toTopOf="@+id/w_subject_title"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        android:layout_marginStart="135dp" />
+
+    <EditText
+        android:id="@+id/new_w_subject1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/new_w_subject"
+        app:layout_constraintLeft_toLeftOf="@+id/w_subject_title"
+        app:layout_constraintTop_toBottomOf="@+id/w_subject_title" />
+
+    <EditText
+        android:id="@+id/new_w_subject2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/new_w_subject"
+        app:layout_constraintLeft_toLeftOf="@+id/new_w_subject1"
+        app:layout_constraintTop_toBottomOf="@+id/new_w_subject1" />
+
+    <EditText
+        android:id="@+id/new_w_subject3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/new_w_subject"
+        app:layout_constraintLeft_toLeftOf="@+id/new_w_subject2"
+        app:layout_constraintTop_toBottomOf="@+id/new_w_subject2" />
+
+    <EditText
+        android:id="@+id/new_w_subject4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/new_w_subject"
+        app:layout_constraintLeft_toLeftOf="@+id/new_w_subject3"
+        app:layout_constraintTop_toBottomOf="@+id/new_w_subject3" />
+
+    <EditText
+        android:id="@+id/new_w_subject5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/new_w_subject"
+        app:layout_constraintLeft_toLeftOf="@+id/new_w_subject4"
+        app:layout_constraintTop_toBottomOf="@+id/new_w_subject4" />
+
+    <EditText
+        android:id="@+id/new_w_subject6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/new_w_subject"
+        app:layout_constraintLeft_toLeftOf="@+id/new_w_subject5"
+        app:layout_constraintTop_toBottomOf="@+id/new_w_subject5" />
+
+    <EditText
+        android:id="@+id/new_w_subject7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/new_w_subject"
+        app:layout_constraintLeft_toLeftOf="@+id/new_w_subject6"
+        app:layout_constraintTop_toBottomOf="@+id/new_w_subject6" />
+
+    <EditText
+        android:id="@+id/new_weight1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="(decimal)"
+        app:layout_constraintLeft_toLeftOf="@+id/weight_title"
+        app:layout_constraintTop_toTopOf="@+id/new_w_subject1"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/new_weight2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="(decimal)"
+        app:layout_constraintLeft_toLeftOf="@+id/new_weight1"
+        app:layout_constraintTop_toTopOf="@+id/new_w_subject2"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/new_weight3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="(decimal)"
+        app:layout_constraintLeft_toLeftOf="@+id/new_weight2"
+        app:layout_constraintTop_toTopOf="@+id/new_w_subject3"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/new_weight4"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-3dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="(decimal)"
+        app:layout_constraintLeft_toLeftOf="@+id/new_weight3"
+        app:layout_constraintTop_toTopOf="@+id/new_w_subject4"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/new_weight5"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="(decimal)"
+        app:layout_constraintLeft_toLeftOf="@+id/new_weight4"
+        app:layout_constraintTop_toTopOf="@+id/new_w_subject5"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/new_weight6"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="(decimal)"
+        app:layout_constraintLeft_toLeftOf="@+id/new_weight5"
+        app:layout_constraintTop_toTopOf="@+id/new_w_subject6"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/new_weight7"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="(decimal)"
+        app:layout_constraintLeft_toLeftOf="@+id/new_weight6"
+        app:layout_constraintTop_toTopOf="@+id/new_w_subject7"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/finish_new_w_course_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/finish_new_course_button"
+        app:layout_constraintLeft_toLeftOf="@+id/new_weight7"
+        app:layout_constraintTop_toBottomOf="@+id/new_w_subject7"
+        tools:ignore="RtlHardcoded" />
+</android.support.constraint.ConstraintLayout>

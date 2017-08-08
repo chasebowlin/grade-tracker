@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Grade Tracker</string>
+    <string name="add_course_button">Add Course</string>
+    <string name="course_name_title">Course</string>
+    <string name="subject_1">subject:</string>
+    <string name="subject_2">subject:</string>
+    <string name="subject_3">subject:</string>
+    <string name="subject_4">subject:</string>
+    <string name="subject_5">subject:</string>
+    <string name="subject_6">subject:</string>
+    <string name="is_weighted">is this course weighted?</string>
+    <string name="new_course_name">course name</string>
+    <string name="to_add_subject">next</string>
+    <string name="subject_title_1">Subject</string>
+    <string name="finish_new_course_button">Finish</string>
+    <string name="new_weight">(decimal)</string>
+    <string name="new_w_subject" />
+    <string name="course_view" />
+    <string name="grade_view" />
+    <string name="course_title" />
+    <string name="add_new_subject_button">add a subject</string>
+    <string name="subject_view" />
+    <string name="delete_course_button">delete course</string>
+    <string name="delete_button">Button</string>
+    <string name="add_assignment_button">Button</string>
+    <string name="subject_title" />
+    <string name="assignment_header">add an assignment</string>
+    <string name="assignment_name">assignment name</string>
+    <string name="add_f_assignment_button">add assignment</string>
+    <string name="points_possible">points possible</string>
+    <string name="header_assignment" />
+    <string name="due_date_header">Due Date</string>
+    <string name="points_header">Points</string>
+    <string name="due_date_view" />
+    <string name="points_view" />
+    <string name="delete_assignment_button">Delete Assignment</string>
+</resources>

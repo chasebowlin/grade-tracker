@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fdaj.gradetracker.add_subjects_activity">
+
+    <TextView
+        android:id="@+id/subject_title_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_title_1"
+        android:textSize="30sp"
+        android:layout_marginLeft="34dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="26dp"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/new_subject1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/new_w_subject"
+        app:layout_constraintLeft_toLeftOf="@+id/subject_title_1"
+        app:layout_constraintTop_toBottomOf="@+id/subject_title_1"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/new_subject2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/new_w_subject"
+        app:layout_constraintLeft_toLeftOf="@+id/new_subject1"
+        app:layout_constraintTop_toBottomOf="@+id/new_subject1"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/new_subject3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/new_w_subject"
+        app:layout_constraintLeft_toLeftOf="@+id/new_subject2"
+        app:layout_constraintTop_toBottomOf="@+id/new_subject2"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/new_subject4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/new_w_subject"
+        app:layout_constraintLeft_toLeftOf="@+id/new_subject3"
+        app:layout_constraintTop_toBottomOf="@+id/new_subject3"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/new_subject5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/new_w_subject"
+        app:layout_constraintLeft_toLeftOf="@+id/new_subject4"
+        app:layout_constraintTop_toBottomOf="@+id/new_subject4"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/new_subject6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/new_w_subject"
+        app:layout_constraintLeft_toLeftOf="@+id/new_subject5"
+        app:layout_constraintTop_toBottomOf="@+id/new_subject5"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/new_subject7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/new_w_subject"
+        app:layout_constraintLeft_toLeftOf="@+id/new_subject6"
+        app:layout_constraintTop_toBottomOf="@+id/new_subject6"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/finish_new_course_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/finish_new_course_button"
+        app:layout_constraintLeft_toRightOf="@+id/new_subject7"
+        app:layout_constraintTop_toBottomOf="@+id/new_subject7"
+        tools:ignore="RtlHardcoded" />
+</android.support.constraint.ConstraintLayout>

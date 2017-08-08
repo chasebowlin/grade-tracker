@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fdaj.gradetracker.view_assignment_details">
+
+    <TextView
+        android:id="@+id/assignment_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/header_assignment"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/due_date_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="-8dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/due_date_header"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/assignment_header"
+        app:layout_constraintTop_toBottomOf="@+id/assignment_header" />
+
+    <TextView
+        android:id="@+id/due_date_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="-8dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/due_date_view"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="@+id/due_date_header"
+        app:layout_constraintTop_toBottomOf="@+id/due_date_header" />
+
+    <TextView
+        android:id="@+id/points_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-8dp"
+        android:layout_marginStart="-8dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/points_header"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/due_date_view"
+        app:layout_constraintTop_toBottomOf="@+id/due_date_view" />
+
+    <TextView
+        android:id="@+id/points_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-8dp"
+        android:layout_marginStart="-8dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/points_view"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="@+id/points_header"
+        app:layout_constraintTop_toBottomOf="@+id/points_header" />
+
+    <Button
+        android:id="@+id/delete_assignment_button"
+        android:layout_width="350dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="-8dp"
+        android:layout_marginStart="-8dp"
+        android:layout_marginTop="120dp"
+        android:text="@string/delete_assignment_button"
+        app:layout_constraintLeft_toLeftOf="@+id/points_view"
+        app:layout_constraintTop_toBottomOf="@+id/points_view" />
+</android.support.constraint.ConstraintLayout>

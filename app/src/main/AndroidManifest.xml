@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fdaj.gradetracker">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".home_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".add_course_activity" />
+        <activity android:name=".add_subjects_activity" />
+        <activity android:name=".add_weighted_subjects_activity" />
+        <activity android:name=".view_courses_subjects" />
+        <activity android:name=".view_subjects_assignments" />
+        <activity android:name=".add_assignment" />
+        <activity android:name=".view_assignment_details" />
+        <activity android:name=".view_assignment"></activity>
+    </application>
+
+</manifest>
